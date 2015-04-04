@@ -1,0 +1,7 @@
+
+cp bootsect.bin mongo;
+cat FAT.bin >> mongo
+cat cnb_bin.bin >> mongo;
+cat trash >> mongo;
+cp mongo /usr/share/bochs/images/fd/1.44M_2;
+
